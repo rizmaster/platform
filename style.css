@@ -80,6 +80,7 @@ footer{
 	font: 14px Exo-Regular;
 }
 .play{
+	position: relative;
 	border-radius: 50%;
 	background-color: #8286a4;
 	width: 60px;
@@ -90,6 +91,15 @@ footer{
 .play img{
 	padding-top: 20px;
 	padding-left: 5px;
+}
+.video {
+    position: absolute;
+    top: -300px;
+    left: -550px;
+    display: none;
+}
+.play:hover .video{
+	display: block;
 }
 .intro_video button{
 	cursor: pointer;
